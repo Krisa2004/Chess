@@ -1,0 +1,64 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>WinExe</OutputType>
+        <TargetFramework>net6.0-windows</TargetFramework>
+        <Nullable>enable</Nullable>
+        <UseWPF>true</UseWPF>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <None Remove="pieces\bishop_dark.png" />
+      <None Remove="pieces\bishop_light.png" />
+      <None Remove="pieces\king_dark.png" />
+      <None Remove="pieces\king_light.png" />
+      <None Remove="pieces\knight_dark.png" />
+      <None Remove="pieces\knight_light.png" />
+      <None Remove="pieces\pawn_dark.png" />
+      <None Remove="pieces\pawn_light.png" />
+      <None Remove="pieces\queen_dark.png" />
+      <None Remove="pieces\queen_light.png" />
+      <None Remove="pieces\rook_dark.png" />
+      <None Remove="pieces\rook_light.png" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Resource Include="pieces\bishop_dark.png">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Resource>
+      <Resource Include="pieces\bishop_light.png">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Resource>
+      <Resource Include="pieces\king_dark.png">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Resource>
+      <Resource Include="pieces\king_light.png">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Resource>
+      <Resource Include="pieces\knight_dark.png">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Resource>
+      <Resource Include="pieces\knight_light.png">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Resource>
+      <Resource Include="pieces\pawn_dark.png">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Resource>
+      <Resource Include="pieces\pawn_light.png">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Resource>
+      <Resource Include="pieces\queen_dark.png">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Resource>
+      <Resource Include="pieces\queen_light.png">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Resource>
+      <Resource Include="pieces\rook_dark.png">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Resource>
+      <Resource Include="pieces\rook_light.png">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Resource>
+    </ItemGroup>
+
+</Project>
